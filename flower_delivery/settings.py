@@ -58,6 +58,18 @@ DATABASES = {
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'dbname',
+#         'USER': 'user',
+#         'PASSWORD': 'password',
+#         'HOST': 'db',
+#         'PORT': '5432',
+#     }
+# }
+
+
 
 # Настройка автоматически создаваемого первичного ключа
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'

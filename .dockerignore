@@ -1,0 +1,51 @@
+# Виртуальное окружение Python
+venv/
+*.pyc
+__pycache__/
+
+# Файлы базы данных
+*.sqlite3
+
+# Файлы настроек IDE
+.vscode/
+.idea/
+
+# Файлы логов
+*.log
+
+# Временные файлы
+*.tmp
+
+# Файлы системы контроля версий
+.git
+.gitignore
+
+# Файлы документации
+README.md
+
+# Файлы настроек
+.env
+
+# Кэш Django
+*.pyc
+*.pyo
+*.pyd
+.Python
+db.sqlite3
+
+# Статические файлы (собираются Django)
+/staticfiles/
+
+# Медиа файлы
+/media/
+
+# Файлы тестов
+/tests/
+
+# Файлы миграций Django (если вы не хотите их включать)
+# */migrations/
+
+# Другие файлы, которые не нужны в Docker-образе
+Dockerfile
+docker-compose.yml
+
